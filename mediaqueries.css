@@ -10,7 +10,7 @@
   #certificate {
     height: fit-content;
   }
-  .certificate-containers{
+  .certificate-containers {
     flex-wrap: wrap;
   }
 
@@ -53,8 +53,15 @@
   .about-containers {
     margin-top: 0;
   }
-  .certificate-containers{
+  .certificate-containers {
     flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .certificate-item {
+    flex: 1 1 calc(50% - 20px); /* Fits 2 items per line on smaller screens */
+    max-width: calc(50% - 20px); /* Adjusts maximum width for smaller screens */
   }
 }
 
@@ -110,5 +117,12 @@
   }
   .text-container {
     text-align: justify;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .certificate-item {
+    flex: 1 1 100%; /* Fits 1 item per line on very small screens */
+    max-width: 100%; /* Adjusts maximum width for very small screens */
   }
 }

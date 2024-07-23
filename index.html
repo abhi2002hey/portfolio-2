@@ -47,12 +47,17 @@
         <h1 class="title">Abhishek</h1>
         <p class="section__text__p2">Data Scientist</p>
         <div class="btn-container">
-          <button
+          <!-- <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/resume-example.pdf')"
+            onclick="window.open('.assets\no_resume.html')"
           >
             Download CV
+          </button> -->
+
+          <button class="btn btn-color-2" onclick="window.open('no_resume.html', '_blank')">
+            Download CV
           </button>
+
           <button class="btn btn-color-1" onclick="location.href='./#contact'">
             Contact Info
           </button>
@@ -242,7 +247,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Excel</h3>
+                  <h3>DSA</h3>
                   <p>Advance</p>
                 </div>
               </article>
@@ -366,80 +371,56 @@
       /> -->
     </section>
 
-<!-- cerficate -->
-<!--<section id="certificate">
-  <p class="section__text__p1">Browse My Recent</p>
-  <h1 class="title">Certificate</h1>
-  <div class="certificate-details-container">
-    <div class="certificate-containers">
-      <div class="details-container color-container">
-        <div class="certificate-container">
-          <img
-            src="./assets/pandas.png"
-            alt="Project 1"
-            class="certificate-img"
-          />
-        </div>
-        <h2 class="certificate-sub-title">Project One</h2>
-      </div>
-      <div class="details-container color-container">
-        <div class="certificate-container">
-          <img
-            src="./assets/project-2.png"
-            alt="Project 2"
-            class="certificate-img"
-          />
-        </div>
-        <h2 class="certificate-sub-title">Project Two</h2>
-      </div>
-      <div class="details-container color-container">
-        <div class="certificate-container">
-          <img
-            src="./assets/project-3.png"
-            alt="Project 3"
-            class="certificate-img"
-          />
-        </div>
-        <h2 class="certificate-sub-title">Project Three</h2>
-      </div>
-  </div>
-  <img
-    src="./assets/arrow.png"
-    alt="Arrow icon"
-    class="icon arrow"
-    onclick="location.href='./#contact'"
-  />
-</section> -->
 
+<!-- Certificate Section -->
     <section id="certificate">
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Certificates</h1>
-      <div class="certificate-details-container">
-        <div class="certificate-containers">
-          <div class="details-container color-container">
-            <div class="certificate-container">
-              <img src="./assets/pandas.png" alt="Project 1" class="certificate-img">
-            </div>
-            <h2 class="certificate-sub-title">Pandas</h2>
-          </div>
-          <div class="details-container color-container">
-            <div class="certificate-container">
-              <img src="./assets/accenture_certificate.png" alt="Project 2" class="certificate-img">
-            </div>
-            <h2 class="certificate-sub-title">Accenture Job Simulation</h2>
-          </div>
-          <div class="details-container color-container">
-            <div class="certificate-container">
-              <img src="./assets/3-certificate.jpg" alt="Project 3" class="certificate-img">
-            </div>
-            <h2 class="certificate-sub-title">admit card</h2>
+      <div class="certificate-wrapper">
+        <div class="certificate-item">
+          <div class="cerdetail-container color-container">
+            <a href="https://www.udemy.com/certificate/UC-9326a803-5d61-4ecc-9980-6b6e606a88c6/" target="_blank" class="certificate-link">
+              <div class="certificate-container">
+                <img src="assets\numpy.jpg" alt="Numpy Certificate" class="certificate-img">
+              </div>
+              <h2 class="certificate-sub-title">Numpy</h2>
+            </a>
           </div>
         </div>
+        <div class="certificate-item">
+          <div class="cerdetail-container color-container">
+            <a href="https://drive.google.com/file/d/16DqFGQH0BVQe_my7ss2_tNaxTNeK2F7A/view?usp=sharing" target="_blank" class="certificate-link">
+              <div class="certificate-container">
+                <img src="assets\softpro.jpg" alt="Machine Learning Certificate" class="certificate-img">
+              </div>
+              <h2 class="certificate-sub-title">Machine Learning</h2>
+            </a>
+          </div>
+        </div>
+        <div class="certificate-item">
+          <div class="cerdetail-container color-container">
+            <a href="https://www.kaggle.com/learn/certification/abhishek9910/pandas" target="_blank" class="certificate-link">
+              <div class="certificate-container">
+                <img src="assets\panda.png" alt="Pandas Certificate" class="certificate-img">
+              </div>
+              <h2 class="certificate-sub-title">Pandas</h2>
+            </a>
+          </div>
+        </div>
+        <div class="certificate-item">
+          <div class="cerdetail-container color-container">
+            <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20North%20America/hzmoNKtzvAzXsEqx8_Accenture%20North%20America_gLywKjaPsaZXcNJGS_1711901555198_completion_certificate.pdf" target="_blank" class="certificate-link">
+              <div class="certificate-container">
+                <img src="assets\accenture.png" alt="accenture Certificate" class="certificate-img">
+              </div>
+              <h2 class="certificate-sub-title">Accenture Data Analytics Job Simulation</h2>
+            </a>
+          </div>
+        </div>
+        <!-- Add more certificate items as needed -->
       </div>
-      <!-- <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'"> -->
     </section>
-
-
+    
 
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
@@ -459,7 +440,7 @@
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com/in/abhishek9910/">LinkedIn</a></p>
+          <p><a href="https://www.linkedin.com/in/abhishek9910/">LinkedIn (Recommended)</a></p>
         </div>
       </div>
     </section>
