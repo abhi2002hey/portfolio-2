@@ -1,25 +1,25 @@
+/* Adjust layout and spacing for large screens */
 @media screen and (max-width: 1400px) {
   #profile {
-    height: 70vh;
+    height: auto;
     margin-bottom: 6rem;
   }
   .about-containers {
     flex-wrap: wrap;
   }
-
   #certificate {
     height: fit-content;
   }
   .certificate-containers {
     flex-wrap: wrap;
   }
-
   #contact,
   #projects {
     height: fit-content;
   }
 }
 
+/* Adjust layout and spacing for medium screens */
 @media screen and (max-width: 1200px) {
   #desktop-nav {
     display: none;
@@ -56,20 +56,22 @@
   }
 }
 
+/* Adjust layout and spacing for small screens */
 @media screen and (max-width: 768px) {
   .certificate-item {
-    flex: 1 1 calc(50% - 20px); /* Fits 2 items per line on smaller screens */
-    max-width: calc(50% - 20px); /* Adjusts maximum width for smaller screens */
+    flex: 1 1 calc(50% - 20px);
+    max-width: calc(50% - 20px);
   }
 }
 
+/* Adjust layout and spacing for extra small screens */
 @media screen and (max-width: 600px) {
   #contact,
   footer {
     height: 40vh;
   }
   #profile {
-    height: 65vh;
+    height: auto;
     margin-bottom: 0;
   }
   article {
@@ -118,9 +120,10 @@
   }
 }
 
+/* Adjust layout and spacing for extra extra small screens */
 @media screen and (max-width: 480px) {
   .certificate-item {
-    flex: 1 1 100%; /* Fits 1 item per line on very small screens */
-    max-width: 100%; /* Adjusts maximum width for very small screens */
+    flex: 1 1 100%;
+    max-width: 100%;
   }
 }
