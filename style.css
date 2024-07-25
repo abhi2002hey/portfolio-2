@@ -283,8 +283,14 @@ section {
   margin-top: 2rem;
 }
 
+.text-container p{
+  color: rgb(65, 62, 62);
+  font-weight: 490;
+  font-size: 19px;
+}
+
 .about-details-container {
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
 }
 
