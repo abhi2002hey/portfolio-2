@@ -184,16 +184,22 @@ section {
   text-align: center;
 }
 
+.section_title{
+  color: rgba(23,193,255,255);
+  font-size: 4rem;
+  text-align: center;
+}
 .section__text p {
   font-weight: 600;
 }
 
 .section__text__p1 {
   text-align: center;
+  font-size: 1.5rem;
 }
 
 .section__text__p2 {
-  font-size: 1.75rem;
+  font-size: 1.80rem;
   margin-bottom: 1rem;
 }
 
@@ -473,6 +479,12 @@ article {
   width: 10rem;
   justify-content: left;
   gap: 0.5rem;
+}
+
+article .icon {
+  width: 2.5rem; /* Increased width for larger image */
+  height: 2.5rem; /* Adjust height accordingly */
+  margin-bottom: 1rem; /* Added space below icon */
 }
 
 article .icon {
