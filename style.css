@@ -409,6 +409,7 @@ footer p {
 }
 
 /* POST SECTION*/
+
 #linkedin-posts {
   padding: 2rem 0;
   text-align: center;
@@ -417,15 +418,18 @@ footer p {
 .linkedin-posts-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 1rem;
   justify-content: center;
 }
 
 .linkedin-post iframe {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  max-width: 100%;
+  width: 100%; /* Make the iframe take full width of its container */
+  max-width: 500px; /* Limit the maximum width */
+  height: 300px; /* Adjust height for better visibility */
 }
+
 
 /* CERTIFICATE SECTION */
 
